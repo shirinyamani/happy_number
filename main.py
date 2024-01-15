@@ -26,5 +26,9 @@ def happy_num(num):
         l = sum([int(x)**2 for x in str(num)])
     return l == 1
 
+if __name__ == "__main__":
+    assert happy_num(4) is False
+    assert happy_num(100) is True
+
 #input num
 #sum
